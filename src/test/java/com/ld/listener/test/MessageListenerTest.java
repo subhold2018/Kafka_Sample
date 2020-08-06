@@ -53,7 +53,7 @@ public class MessageListenerTest {
 		props.put(ProducerConfig.RETRIES_CONFIG, 5);
 		props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
 		props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
-		props.put(SECURITY_PROTOCOL, SASL_PLAINTEXT);
-		props.put(SASL_MECHANISM, PLAIN);
+//		props.put(SECURITY_PROTOCOL, SASL_PLAINTEXT);
+//		props.put(SASL_MECHANISM, PLAIN);
 	}
 }
