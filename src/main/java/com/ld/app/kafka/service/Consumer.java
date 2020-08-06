@@ -1,4 +1,4 @@
-package com.ld.kafka.app.service;
+package com.ld.app.kafka.service;
 
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;

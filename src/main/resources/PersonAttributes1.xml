@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:acc="http://xml.ipnweb.com/Account/AccountSetup" xmlns:acc1="http://xml.ipnweb.com/Account" xmlns:root="http://xml.ipnweb.com/RootTypes">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <AccountSetupTransaction xsi:schemaLocation="http://xml.ipnweb.com/Account/AccountSetup/Account.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xml.ipnweb.com/Account/AccountSetup" xmlns:acct="http://xml.ipnweb.com/Account">
+         <Errors>
+            <root:Error>
+               <root:ErrorLevel>300</root:ErrorLevel>
+               <root:ErrorCode>NB19805</root:ErrorCode>
+               <root:ErrorMessageText>org.xml.sax.SAXParseException: The prefix "acc" for element "acc:AccountSetupTransaction" is not bound.</root:ErrorMessageText>
+            </root:Error>
+         </Errors>
+      </AccountSetupTransaction>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -26,6 +26,8 @@ dependencies {
     
     implementation 'org.springframework.boot:spring-boot-starter-web:2.0.5.RELEASE'
     implementation 'org.springframework.kafka:spring-kafka:2.1.10.RELEASE'
+    implementation 'javax.xml.bind:jaxb-api:2.2.4'
+    implementation 'commons-io:commons-io:2.6'
     testImplementation 'org.springframework.boot:spring-boot-starter-test:2.0.5.RELEASE'
     
 }
