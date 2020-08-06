@@ -38,7 +38,7 @@ public class CustomerUnmarshaller {
 
     public static void main(String[] args) throws Exception {
         CustomerUnmarshaller customerUnmarshaller = new CustomerUnmarshaller();
-        customerUnmarshaller.xml2Pojo1(getResourceFile("PersonAttributes1.xml"));
+        customerUnmarshaller.xml2Pojo1(getResourceFile("PersonAttributes.xml"));
     }
 
     private static String getResourceFile(String fileName) {
